@@ -14,8 +14,8 @@ Para facilitar a leitura e organização do rótulo, insira um elemento `<div>` 
 ---
 
 ### Entendendo Margin e Padding
-- **Margin (margem)**: Define o espaço externo ao redor de um elemento, criando uma separação entre ele e os elementos vizinhos. Pense no espaço entre uma moldura e a parede.
-- **Padding (preenchimento)**: Define o espaço interno entre o conteúdo do elemento e sua borda. Imagine o espaço entre o texto e a borda de uma caixa.
+- **Margin (margem)** Define o espaço externo ao redor do elemento. É a distância entre o elemento e os outros elementos ou a borda da página. Margins nunca afetam o conteúdo ou o tamanho visual do elemento em si, apenas o espaçamento ao seu redor.
+- **Padding (preenchimento)**: Define o espaço interno dentro do elemento. É a distância entre o conteúdo do elemento (como texto ou imagens) e a borda do elemento. Padding aumenta o tamanho visual do elemento, sem mudar o seu conteúdo.
 
 ---
 
