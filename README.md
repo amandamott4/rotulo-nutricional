@@ -29,7 +29,11 @@ Use a propriedade `letter-spacing` para ajustar o espaçamento entre os caracter
 ---
 
 ### Negrito eficiente no rótulo
-Como o texto em negrito é amplamente usado em rótulos nutricionais, a criação de uma classe dedicada para aplicar o estilo em múltiplos elementos facilita a manutenção e aplicação do design.
+Se o texto em negrito é usado com frequência em elementos como tabelas nutricionais ou outras partes do layout, faz sentido criar uma classe CSS dedicada para aplicar o estilo em vários elementos. Isso melhora a manutenção, porque, caso o estilo precise ser ajustado no futuro (como mudar a fonte ou o peso do negrito), você só precisa editar a classe, e todas as partes que a utilizam serão atualizadas automaticamente.Você pode aplicar essa classe em qualquer lugar necessário.
+ex:
+     .bold-label {
+       font-weight: bold;
+     }
 
 ---
 
@@ -39,7 +43,11 @@ O elemento `<span>` é ideal para estilizar partes específicas de um texto inli
 ---
 
 ### Flexbox para alinhamento perfeito
-No CSS, utilize `display: flex` e `justify-content: space-between` no seletor de parágrafo (`p`) para organizar e distribuir o texto de forma equilibrada. Adicione `align-items: flex-end` para alinhar os elementos ao final do contêiner flexível.
+`display: flex`: Transforma o elemento em um contêiner flexível, permitindo que seus filhos (neste caso, os textos dos parágrafos) sejam organizados de forma automática e flexível
+
+ `justify-content: space-between`* `: Distribui os elementos filhos ao longo do eixo principal (horizontal por padrão), com espaços iguais entre eles. Isso cria um layout equilibrado onde os itens ficam distribuídos de ponta a ponta do contêiner.
+
+`align-items: flex-end`: Alinha os itens ao longo do eixo cruzado (vertical por padrão) na parte inferior do contêiner flexível
 
 ---
 
