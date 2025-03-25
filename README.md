@@ -68,6 +68,12 @@ Use a tag `<i>` para adicionar ênfase ou estilo especial a partes do texto, com
 
 ### Criação de divisores e classes específicas
 Divisores ajudam a criar uma hierarquia visual e organização no rótulo. Combine classes como `divider`, `indent` ou `no-divider` para ajustar separações ou recuos. Adicione novas classes para personalizar elementos, como `.note`, para textos adicionais ou observações.
+A regra não será aplicada aos parágrafos com essa classe.
+ex:
+   .daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
+
 
 ---
 
