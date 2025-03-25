@@ -42,7 +42,7 @@ O elemento `<span>` é ideal para estilizar partes específicas de um texto inli
 
 ---
 
-### Flexbox para alinhamento perfeito
+### Flexbox, Espaçamento e alinhamento em rótulos
 `display: flex`: Transforma o elemento em um contêiner flexível, permitindo que seus filhos (neste caso, os textos dos parágrafos) sejam organizados de forma automática e flexível
 
  `justify-content: space-between`* `: Distribui os elementos filhos ao longo do eixo principal (horizontal por padrão), com espaços iguais entre eles. Isso cria um layout equilibrado onde os itens ficam distribuídos de ponta a ponta do contêiner.
@@ -76,6 +76,3 @@ ex:
 
 
 ---
-
-### Espaçamento e alinhamento em rótulos
-Utilize uma classe como `.calories-info`, configurando `display: flex` para layouts alinhados. O uso de `justify-content: space-between` permite espaçamento uniforme, e `align-items: flex-end` garante que os elementos fiquem alinhados verticalmente ao final.
