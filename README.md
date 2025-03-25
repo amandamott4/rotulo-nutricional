@@ -15,11 +15,11 @@ Para facilitar a leitura e organização do rótulo, insira um elemento `<div>` 
 
 ### Entendendo Margin e Padding
 - **Margin (margem)** Define o espaço externo ao redor do elemento. É a distância entre o elemento e os outros elementos ou a borda da página. Margins nunca afetam o conteúdo ou o tamanho visual do elemento em si, apenas o espaçamento ao seu redor.
-- Imagine que o quadro está pendurado na parede. O margin é o espaço vazio entre o quadro e qualquer outro objeto na parede, como outro quadro ou uma janela. Esse espaço é externo ao quadro e não afeta o tamanho ou o conteúdo dentro do quadro.
+ Imagine que o quadro está pendurado na parede. O margin é o espaço vazio entre o quadro e qualquer outro objeto na parede, como outro quadro ou uma janela. Esse espaço é externo ao quadro e não afeta o tamanho ou o conteúdo dentro do quadro.
 
-- 
+ 
 - **Padding (preenchimento)**: Define o espaço interno dentro do elemento. É a distância entre o conteúdo do elemento (como texto ou imagens) e a borda do elemento. Padding aumenta o tamanho visual do elemento, sem mudar o seu conteúdo.
-- Agora pense na área dentro do quadro, entre a borda e a pintura em si. O padding é o espaço vazio que mantém a pintura afastada das bordas internas do quadro. Ele afeta apenas o interior do quadro e aumenta o espaço disponível dentro dele sem alterar o espaço externo.
+ Agora pense na área dentro do quadro, entre a borda e a pintura em si. O padding é o espaço vazio que mantém a pintura afastada das bordas internas do quadro. Ele afeta apenas o interior do quadro e aumenta o espaço disponível dentro dele sem alterar o espaço externo.
 
 ---
 
